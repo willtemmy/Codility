@@ -4,13 +4,13 @@
 =end
 
 def variable_swap(a, b)
-    # Your code here
+    return b, a
 end
   
 # Example usage
 a = 5
 b = 10
-variable_swap(a, b)
+a, b = variable_swap(a, b)
 puts a # Expected output: 10
 puts b # Expected output: 5
   
